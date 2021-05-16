@@ -1,3 +1,3 @@
-# via_msgs
+# VIA Messages
 
 Interfaces between core VIA SDK components.
