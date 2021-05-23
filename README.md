@@ -1,3 +1,3 @@
-# VIA Messages
+# VIA Definitions
 
-Interfaces between core VIA SDK components.
+Interfaces and common definitions of VIA SDK.

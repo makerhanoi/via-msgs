@@ -1,4 +1,4 @@
-module via_msgs {
+module via_definitions {
   module msg {
     struct TwoInts {
       int64 num1;
