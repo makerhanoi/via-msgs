@@ -3,7 +3,7 @@
 <package format="3">
   <name>via_msgs</name>
   <version>0.0.1</version>
-  <description>VIA common components: messages, services and code.</description>
+  <description>VIA Interfaces: messages, services, actions.</description>
   <maintainer email="makerhanoi@gmail.com">MakerHanoi</maintainer>
   <maintainer email="airteam@team.anonymous">AIR Team</maintainer>
   <license>MIT</license>

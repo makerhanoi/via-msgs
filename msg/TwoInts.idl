@@ -1,0 +1,8 @@
+module via_msgs {
+  module msg {
+    struct TwoInts {
+      int64 num1;
+      int64 num2;
+    };
+  };
+};

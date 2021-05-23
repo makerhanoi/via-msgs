@@ -16,8 +16,13 @@ find_package(std_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/TwoInts.msg"
+  "msg/TwoInts.idl"
   DEPENDENCIES builtin_interfaces std_msgs
+)
+
+install(
+  DIRECTORY include/
+  DESTINATION include
 )
 
 ament_export_dependencies(rosidl_default_runtime)
