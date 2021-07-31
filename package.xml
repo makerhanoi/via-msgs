@@ -3,9 +3,12 @@
 <package format="3">
   <name>via_definitions</name>
   <version>0.0.1</version>
-  <description>VIA Interfaces: messages, services, actions.</description>
+  <description>Communication interfaces in VIA Stack: messages, services, actions.</description>
+  
   <maintainer email="makerhanoi@gmail.com">MakerHanoi</maintainer>
-  <maintainer email="airteam@team.anonymous">AIR Team</maintainer>
+  <maintainer email="air.team.2050@gmail.com">AIR</maintainer>
+  <author email="vietanh.dev@gmail.com">Viet Anh Nguyen</author>
+
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
