@@ -1,0 +1,8 @@
+#include "TrafficSign.idl"
+module via_definitions {
+  module msg {
+    struct TrafficSigns {
+      sequence<via_definitions::msg::TrafficSign> sign_list;
+    };
+  };
+};

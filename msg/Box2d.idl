@@ -1,0 +1,10 @@
+module via_definitions {
+  module msg {
+    struct Box2d {
+      float x;
+      float y;
+      float width;
+      float height;
+    };
+  };
+};

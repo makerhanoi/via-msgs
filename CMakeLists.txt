@@ -23,6 +23,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Point2f.idl"
   "msg/LaneLine.idl"
   "msg/Lane.idl"
+  "msg/Box2d.idl"
+  "msg/TrafficSign.idl"
+  "msg/TrafficSigns.idl"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 

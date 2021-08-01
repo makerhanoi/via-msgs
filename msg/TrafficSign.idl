@@ -1,0 +1,10 @@
+#include "Box2d.idl"
+module via_definitions {
+  module msg {
+    struct TrafficSign {
+      int16 sign_id;
+      float confidence;
+      via_definitions::msg::Box2d box;
+    };
+  };
+};
