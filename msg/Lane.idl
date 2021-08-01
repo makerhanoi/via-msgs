@@ -1,0 +1,10 @@
+#include "LaneLine.idl"
+module via_definitions {
+  module msg {
+    struct Lane {
+      via_definitions::msg::LaneLine left_line;
+      via_definitions::msg::LaneLine right_line;
+      via_definitions::msg::LaneLine target_line;
+    };
+  };
+};

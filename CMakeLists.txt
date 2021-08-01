@@ -20,8 +20,13 @@ find_package(image_transport REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TwoInts.idl"
+  "msg/Point2f.idl"
+  "msg/LaneLine.idl"
+  "msg/Lane.idl"
   DEPENDENCIES builtin_interfaces std_msgs
 )
+
+include_directories(include)
 
 install(
   DIRECTORY include/

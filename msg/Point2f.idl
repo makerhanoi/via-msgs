@@ -1,0 +1,8 @@
+module via_definitions {
+  module msg {
+    struct Point2f {
+      float x;
+      float y;
+    };
+  };
+};

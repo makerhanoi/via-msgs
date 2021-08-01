@@ -1,0 +1,10 @@
+#include "Point2f.idl"
+module via_definitions {
+  module msg {
+    struct LaneLine {
+      float confidence; // Lane line detection confidence
+      int16 line_type; // For lane type: dash, dot... Not used now.
+      sequence<via_definitions::msg::Point2f> points;
+    };
+  };
+};
