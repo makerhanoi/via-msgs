@@ -2,7 +2,7 @@
 module via_definitions {
   module msg {
     struct TrafficSign {
-      int16 sign_id;
+      int16 class_id;
       float confidence;
       via_definitions::msg::Box2d box;
     };

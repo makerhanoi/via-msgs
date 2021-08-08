@@ -1,18 +1,12 @@
 #ifndef TRAFFIC_SIGN_H_
 #define TRAFFIC_SIGN_H_
 
-#include <vector>
-#include <opencv2/opencv.hpp>
-
+#include "object.hpp"
 namespace via {
 namespace definitions {
 namespace perception {
 
-struct TrafficSign {
-  int sign_id;
-  float confidence;
-  cv::Rect2f box;
-};
+struct TrafficSign : Object {};
 
 }  // namespace perception
 }  // namespace definitions
